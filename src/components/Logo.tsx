@@ -14,11 +14,6 @@ export default function Logo({
         isDark ? "text-white" : "text-ink"
       } ${className}`}
     >
-      <img
-        src="/logo.jpg"
-        alt={CONFIG.businessName}
-        className="h-9 w-9 rounded-lg object-contain"
-      />
       <span className="flex flex-col leading-none">
         <span>{CONFIG.shortName}</span>
         <span
